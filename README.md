@@ -24,5 +24,5 @@ divisions, districts and upazilas of Bangladesh.
 ## Endpoints
 
 - `GET /pincode/{code}` — look up a single 4-digit pincode
+- `GET /pincode/district/{district}` — list all pincodes in a district (case-insensitive, e.g. `dhaka`)
 - `POST /pincode/bulk` — look up up to 20 pincodes at once
-- `GET /tasks`, `GET /tasks/{task_id}` — sample task list
